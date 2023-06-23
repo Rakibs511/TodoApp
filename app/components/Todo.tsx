@@ -68,7 +68,7 @@ const Todo = () => {
 
   // ========= JSX =============================
   return (
-    <section className="flex flex-col bg-primary-100 w-96 h-fit sm:w-8/12 md:w-6/12 rounded-lg mt-5 p-5">
+    <section className="flex flex-col bg-primary-100 w-96 h-fit sm:w-8/12 md:w-6/12 rounded-lg mt-20 p-5">
       <h1 className="text-2xl font-semibold text-center">{title.appTitle}</h1>
 
       {/* Title component */}
