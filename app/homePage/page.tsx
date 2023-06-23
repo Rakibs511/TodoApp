@@ -1,5 +1,6 @@
 import React from 'react'
 import Todo from '../components/Todo'
+import Footer from '../components/Footer'
 
 const page = () => {
   return (
@@ -8,6 +9,7 @@ const page = () => {
      justify-center bg-primary-900"
     >
       <Todo/>
+      <Footer/>
     </main>
   )
 }
